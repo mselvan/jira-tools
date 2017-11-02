@@ -41,9 +41,9 @@ function onInstall(e) {
 function addMenu() {
   SpreadsheetApp.getUi().createAddonMenu()
     // Tools
-    .addItem('Refresh Ticket Data', 'dialogRefreshTicketsIds')
+    //.addItem('Refresh Ticket Data', 'dialogRefreshTicketsIds')
     
-    .addSeparator()
+    //.addSeparator()
     .addItem('List Issues from Filter', 'dialogIssueFromFilter')
     .addItem('Create Time Report', 'dialogTimesheet')
 
